@@ -19,7 +19,7 @@ if (mysqli_connect_error()) {
             . mysqli_connect_error());
 }
 
-echo 'Éxito con git3	... ' . $mysqli->host_info . "\n";
+echo 'Éxito con git y con deploy automatico	... ' . $mysqli->host_info . "\n";
 
 $mysqli->close();
 ?>
