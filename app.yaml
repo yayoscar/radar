@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 application: radardgeti
 version: 1
 runtime: php
@@ -10,20 +9,12 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: .*
-  script: main.php
-=======
-application: radardgeti
-version: 1
-runtime: php
-api_version: 1
-threadsafe: yes
+- url: /inc
+  static_dir: inc
 
-handlers:
-- url: /favicon\.ico
-  static_files: favicon.ico
-  upload: favicon\.ico
+- url: /class
+  static_dir: class
 
 - url: .*
-  script: main.php
->>>>>>> 09433c88f4fee77b865e4115791bafb36db74cbf
+  script: index.php
+
