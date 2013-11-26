@@ -1,9 +1,6 @@
 <?php
-<<<<<<< HEAD
+
 $mysqli = new mysqli('cbtis72.edu.mx', 'cbtised0_admin', 'atlante3', 'cbtised0_radar');
-=======
-$mysqli = new mysqli('localhost', 'cbtised0_admin', 'atlante3', 'cbtised0_radar');
->>>>>>> 09433c88f4fee77b865e4115791bafb36db74cbf
 
 /*
  * Esta es la forma OO "oficial" de hacerlo,
